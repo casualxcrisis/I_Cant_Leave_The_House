@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://di07idk2kdual"]
 
-[ext_resource type="PackedScene" uid="uid://bj4hwsf2nal3q" path="res://player_character/scenes/player.tscn" id="1_hmatl"]
+[ext_resource type="PackedScene" uid="uid://bj4hwsf2nal3q" path="res://player_character/player.tscn" id="1_hmatl"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_0yd1l"]
 size = Vector3(16, 1, 16)
@@ -24,4 +24,4 @@ transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 6, 0)
 shadow_enabled = true
 
 [node name="player" parent="." unique_id=1556319826 instance=ExtResource("1_hmatl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.378767, 0.3556732, 2.9749253)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.378767, -0.5244838, 2.9749253)
